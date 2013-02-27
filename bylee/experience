@@ -13,6 +13,7 @@
 	"start": "2003.1",
 	"end": "2004.1",
 	"description": "Research for robot technology\n- Microphone array method and system,\nand speech recognition method and system\nusing the same( US )\n- Method and apparatus for robust speaker\nlocalization and camera control system\nemploying the same( Korea )\n- Microphone array method and system,\nand speech recongnition method and\nsystem using the same( Korea )",
+	"color": "#cccccc",
 	"textY": 1
 }, {
 	"organization": "TmaxSoft",
@@ -26,6 +27,7 @@
 	"start": "2010.1.1",
 	"end": "2010.7.17",
 	"description": "Research for mobile technology",
+	"color": "#ddffff",
 	"textY": 1
 }, {
 	"organization": "Bankware Global",

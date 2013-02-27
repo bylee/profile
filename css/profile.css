@@ -1,5 +1,9 @@
 @CHARSET "utf-8";
 
+html {
+	background-image: url( '../img/bg_sample_h.jpg' );
+}
+
 #main {
 	text-align: center;
 }

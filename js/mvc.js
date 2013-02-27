@@ -260,7 +260,7 @@
 			var x = margin + axisGap + ( start - startYear - 1 ) * gap;
 			var y = 100 + 200 * this.index;
 			var w = ( end - start ) * gap;
-			this.rect( x, y, w, 10 ).attr( 'fill', 'white' );
+			this.rect( x, y, w, 10 ).attr( 'fill', 'lightgray' );
 			if ( this.model.get( 'title') ) {
 				this.text( x + w/2, y + (( this.model.get( 'titlelocation' ) == 'over' )?-10:20 ), this.model.get( 'title' ) )
 				.attr( 'fill', 'red' ).attr( 'font-weight', 'bold' );
@@ -419,7 +419,7 @@
 				collection: experience
 			} );
 			
-			this.$el.append( '<h2 id="skills">Skills</h2>' );
+			this.$el.append( '<h2 id="skills">Archivements</h2>' );
 			
 			this.archView = new ArchivementsView( {
 				parent: this,

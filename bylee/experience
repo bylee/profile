@@ -1,0 +1,44 @@
+[ {
+	"organization": "POSTECH",
+	"url": "http://postech.ac.kr",
+	"start": "1997.3",
+	"end": "2004.7",
+	"description": "B.A. of Electric and Electronic Engineering\n, POSTECH\n",
+	"color": "#9999ee",
+	"textY": 1,
+	"height": 1
+}, {
+	"organization": "SAIT",
+	"url": "http://www.sait.samsung.co.kr",
+	"start": "2003.1",
+	"end": "2004.1",
+	"description": "Research for robot technology\n- Microphone array method and system,\nand speech recognition method and system\nusing the same( US )\n- Method and apparatus for robust speaker\nlocalization and camera control system\nemploying the same( Korea )\n- Microphone array method and system,\nand speech recongnition method and\nsystem using the same( Korea )",
+	"textY": 1
+}, {
+	"organization": "TmaxSoft",
+	"url": "http://tmax.co.kr",
+	"start": "2004.11.1",
+	"end": "2009.12.31",
+	"description": "Research & development for J2EE\napplication framework",
+	"color": "#ee9999"
+}, {
+	"organization": "KT Innotz",
+	"start": "2010.1.1",
+	"end": "2010.7.17",
+	"description": "Research for mobile technology",
+	"textY": 1
+}, {
+	"organization": "Bankware Global",
+	"url": "http://www.bankwareglobal.com",
+	"start": "2010.7.21",
+	"end": "2012.3.31",
+	"description": "Development for enterprise\n- Product factory\n- Logging System\n- J2EE application framework\n- Distribute cache\n- Java test framework\n \nR&D organization set-up\n- Build development team.",
+	"color": "#77cc77"
+}, {
+	"organization": "S-Core",
+	"url": "http://www.s-core.com",
+	"start": "2012.4.17",
+	"end": "2014.1",
+	"description": "Tizen IDE development\n- Review code\n- PIC\n- LiveReload",
+	"color": "#cccc44"
+} ]

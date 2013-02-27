@@ -1,0 +1,36 @@
+@CHARSET "utf-8";
+
+#main {
+	text-align: center;
+}
+
+h2 {
+	margin-top: 50px;
+}
+
+#experience {
+	text-align: center;
+	min-width: 300px;
+}
+
+#description {
+	display: inline-block;
+	width: 700px;
+}
+
+#interest {
+	display: inline-block;
+	width: 900px;
+}
+
+#interest * {
+	text-align: left;
+}
+
+.footer, .header {
+	height: 30px;
+}
+
+.link {
+	margin: 5px;
+}

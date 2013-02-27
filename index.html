@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/profile.css" />
+		
+		<script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+		<script type="text/javascript" src="js/raphael.js"></script>
+		<script type="text/javascript" src="js/underscore.js"></script>
+		<script type="text/javascript" src="js/backbone.js"></script>
+		<script type="text/javascript" src="js/mvc.js"></script>
+		
+	</head>
+	<body>
+	<div class="header">
+	</div>
+	<div id="main">
+		<div id="experience">
+		</div>
+		<h2>My interest</h2>
+		<div id="interest">
+			<h3>TizenAir</h3>
+			<ul>
+				<li>Dog-fooding project for tizen ide</li>
+				<li>Challenge against casual mobile app.</li>
+				<li>Web technology, Node.js, and Tizen platform understanding</li>
+			</ul>
+			<h3>Rapid application development</h3>
+			<ul>
+				<li>Lightweight</li>
+				<li>Rapid Feedback</li>
+				<li>Low communication cost</li>
+			</ul>
+		</div>
+		<div id="links">
+		</div>
+	</div>
+	<div class="footer">
+	</div>
+	</body>
+	<script type="text/javascript">
+	$( function() {
+		new ProfileView( {
+			el: $( '#experience' ),
+			model: new Profile( { 'user': 'bylee' } ),
+		} ).render();
+	} );
+
+	
+	var links = new Links( [ {
+		title: 'mail to me',
+		icon: 'http://www.google.com/images/icons/product/googlemail-32.png',
+		url: 'mailto:bylee78@gmail.com'
+	}, {
+		title: "github",
+		icon: "https://i2.wp.com/a248.e.akamai.net/assets.github.com/images/gravatars/gravatar-user-420.png?ssl=1",
+		url: "https://github.com/bylee"
+	}, {
+		title: "tizenschools",
+		icon: "http://tizenschools.com/wp-content/themes/mflat/tizenschools.ico",
+		url: "http://tizenschools.com"
+	} ] );
+	var linksView = new LinksView( {
+		collection: links
+	} );
+	$( '#links' ).append( '<h2 id="links">Links</h2>').append( linksView.render().$el );
+	
+
+	</script>
+</html>
+
